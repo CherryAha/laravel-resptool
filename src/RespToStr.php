@@ -1,6 +1,6 @@
 <?php
 
-namespace RespStr;
+namespace RspStr;
 
 class RespToStr
 {

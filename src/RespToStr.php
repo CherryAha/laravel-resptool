@@ -4,7 +4,7 @@ namespace RespStr;
 
 class RespToStr
 {
-    public function toString($condition)
+    public static function toString($condition)
     {
         //解析代码
         $statment = "";

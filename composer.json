@@ -1,0 +1,21 @@
+{
+    "name": "cherryt/resptool",
+    "description": "response tools",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shou",
+            "email": "1152804113@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RspStr\\": "src/"
+        }
+    },
+    "minimum-stability": "beta"
+}

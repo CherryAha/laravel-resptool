@@ -12,7 +12,7 @@ class RespToStr
         {
             if (isset($item[0]) && isset($item[1]) && isset($item[2]) && isset($item[3]))
             {
-                $statment_return = "return response()->json(['code'=>'".$item[2]."','msg'=>".$item[3].",'data'=>'".$item[4]."']);";
+                $statment_return = "return response()->json(['code'=>'".$item[2]."','msg'=>'".$item[3]."','data'=>'".$item[4]."']);";
 
                 //判断条件
                 switch ($item[0])
